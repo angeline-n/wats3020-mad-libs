@@ -57,16 +57,20 @@ let adjective5 = prompt('Please enter another word to describe the vehicle.', 'd
 The poem we are using has section numbers. Let's allow the user to
 generate their own. */
 
+/*
 let userNumber = parseInt(prompt('Please enter your favorite number.', 0), 10);
 
 let number2 = userNumber * 2;
 
 let number3 = userNumber + 7;
+*/
 
 // DO NOT EDIT BELOW THIS LINE /////////////////////////////////////////
 //
 // The code below his line handles variable replacement into the HTML file.
 // Please do not edit this code unless you are attempting a stretch goal.
+
+/*
 
 let titleText = `O ${honorific}! My ${honorific}! by <small>${authorName}</small>`;
 let titleHeading = document.querySelector("#madlib-title");
