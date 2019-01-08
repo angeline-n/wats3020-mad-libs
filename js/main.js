@@ -7,7 +7,7 @@ In order to achieve this goal, you will need to write prompt() statements
 to collect input from the user. The input you collect will be used to
 generate the story. */
 
-
+/*
 let honorific = prompt('Please enter an honorific title (e.g. Mister or Colonel).', 'default');
 
 let authorName = prompt('What is your full name?', 'default');
@@ -106,3 +106,5 @@ let storyText = `
 `;
 let storyParagraph = document.querySelector("#madlib-text");
 storyParagraph.innerHTML = storyText;
+
+*/
