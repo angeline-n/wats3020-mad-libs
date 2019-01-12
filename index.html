@@ -21,9 +21,9 @@
 
     <section>
 
-        <p>To generate your MadLibs, please enter the following:</p>
+        <p class="madLibsInstructions">To generate your MadLibs, please enter the following:</p>
 
-        <form onsubmit="madLibs()">
+        <form aria-describedby="madLibsInstructions" onsubmit="madLibs()">
         
             <p>
                 <label for="honorific">An honorific title (e.g. Mister or Colonel):</label>
@@ -37,8 +37,12 @@
 
             <p>
 
-            </p>                <label for="adjective1">An adjective (i.e. a word used to describe something):</label>
+            </p>                
+                
+            <p>
+                <label for="adjective1">An adjective (i.e. a word used to describe something):</label>
                 <input id="adjective1" type="text" value="default">
+            </p>
 
             <p>
                 <label for="vehicle">A vehicle (e.g. plane, boat, etc.):</label>
