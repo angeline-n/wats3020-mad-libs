@@ -23,7 +23,7 @@ this project:
 * [Arithmetic Operators in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
 * [JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 
-This project was also created to go along with [A Practical Introduction to JavaScript](https://www.gitbook.com/book/shawnr/practical-introduction-to-javascript/details)
+This project was also created to go along with [A Practical Introduction to JavaScript](https://suwebdev.github.io/WATS-3020-gitbook/)
 which can be accessed for free.
 
 ## Basic Requirements
@@ -36,7 +36,7 @@ requirements:
 * Use at least two different arithmetic operators to generate the section numbers.
 * Update all of the comments in `js/main.js` so that they make sense to a developer coming to your code for the first time.
 * Push your source code to your `master` branch.
-* Deploy your site by creating a `gh-pages` branch and pushing your code to that branch, too.
+* Deploy your site to master branch.
 
 ## Stretch Goals
 
