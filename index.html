@@ -5,8 +5,8 @@
   <meta charset="utf-8">
 
   <title>WATS 3020: Mad Libs</title>
-  <meta name="description" content="WATS 3020 Mad Libs Assignment">
-  <meta name="author" content="Angeline Nguyen">
+  <meta id="description" content="WATS 3020 Mad Libs Assignment">
+  <meta id="author" content="Angeline Nguyen">
 
   <link rel="stylesheet" href="css/main.css">
 
@@ -15,91 +15,87 @@
 
 <body>
 
-    <form onsubmit="madLibs()">
-        Please enter an honorific title (e.g. Mister or Colonel).
-        <input type="text" name="honorific">
-        
-        What is your full name?
-        <input type="text" name="authorName">
-        
-        Please enter an adjective (i.e. a word used to describe something).
-        <input type="text" name="adjective1">
-        
-        Please enter a vehicle (e.g. plane, boat, etc.).
-        <input type="text" name="vehicle">
-        
-        Please enter a part of the vehicle you just named.
-        <input type="text" name="vehiclePart">
-        
-        Please enter where someone would park the aforementioned vehicle.
-        <input type="text" name="parking">
-        
-        Please name a precious object.
-        <input type="text" name="precious">
-        
-        Please name something that makes noise.
-        <input type="text" name="noiseMaker">
-        
-        Please name something that people do together as a group.
-        <input type="text" name="crowdBehavior">
-        
-        Please enter another adjective (i.e. a word used to describe something).
-        <input type="text" name="adjective2">
-        
-        Please enter a third adjective (i.e. a word used to describe something).
-        <input type="text" name="adjective3">
-        
-        Please name a color.
-        <input type="text" name="color">
-        
-        Please name a family relationship (e.g. sister, father, etc.).
-        <input type="text" name="familyMember">
-        
-        Please name an organ (e.g. heart, liver, spleen, etc.).
-        <input type="text" name="organ">
-        
-        Please enter the name of a body part.
-        <input type="text" name="bodyPart1">
-        
-        Please enter the name of another body part.
-        <input type="text" name="bodyPart2">
-        
-        Please enter the name of a third body part.
-        <input type="text" name="bodyPart3">
-        
-        Please name an object.
-        <input type="text" name="thing">
-        
-        Please name an object you might give somebody you love.
-        <input type="text" name="thing2">
-        
-        Please name an object you might give somebody you like.
-        <input type="text" name="thing3">
-        
-        Please enter a word used to describe the vehicle.
-        <input type="text" name="adjective4">
-        
-        Please enter another word to describe the vehicle.
-        <input type="text" name="adjective5">
-        
-        Please enter your favorite number.
-        <input type="number" name="userNumber">
-        
-        <input type="submit" value="Submit">
-        
-        <input type="reset">
+    <header>
+    <h1>MadLibs</h1>
+    </header>
 
-    </form>
+    <section>
 
-<!--
-    <h1 id="madlib-title">Title</h1>
+        <p>To generate your MadLibs, please enter the following:</p>
 
-    <pre id="madlib-text">
-        Text will be inserted here.
-    </pre>
-    <hr>
-    <p>The original text used for this exercise is <a href="http://famouspoetsandpoems.com/poets/walt_whitman/poems/17466">"O Captain! My Captain" by Walt Whitman.</a></p>
--->
+        <form onsubmit="madLibs()">
+            <label for="honorific">An honorific title (e.g. Mister or Colonel):</label>
+            <input id="honorific" type="text" value="default">
+            
+            <label for="authorName">Your full name:</label>
+            <input id="authorName" type="text" value="default">
+            
+            <label for="adjective1">An adjective (i.e. a word used to describe something):</label>
+            <input id="adjective1" type="text" value="default">
+            
+            <label for="vehicle">A vehicle (e.g. plane, boat, etc.):</label>
+            <input id="vehicle" type="text" value="default">
+            
+            <label for="vehiclePart">A part of the vehicle you just named:</label>
+            <input id="vehiclePart" type="text" value="default">
+            
+            <label for="parking">Where someone would park the aforementioned vehicle:</label>
+            <input  id="parking" type="text" value="default">
+            
+            <label for="precious">A precious object:</label>
+            <input  id="precious" type="text" value="default">
+            
+            <label for="noiseMaker">Something that makes noise:</label>
+            <input  id="noiseMaker" type="text" value="default">
+            
+            <label for="crowdBehavior">Something that people do together as a group:</label>
+            <input id="crowdBehavior" type="text" value="default">
+            
+            <label for="adjective2">Another adjective (i.e. a word used to describe something):</label>
+            <input id="adjective2" type="text" value="default">
+            
+            <label for="adjective3">A third adjective (i.e. a word used to describe something):</label>
+            <input id="adjective3" type="text" value="default">
+            
+            <label for="color">A color:</label>
+            <input id="color" type="text" value="default">
+            
+            <label for="familyMember">A family relationship (e.g. sister, father, etc.):</label>
+            <input id="familyMember" type="text" value="default">
+            
+            <label for="organ">An organ (e.g. heart, liver, spleen, etc.):</label>
+            <input id="organ" type="text" value="default">
+            
+            <label for="bodyPart1">A body part:</label>
+            <input id="bodyPart1" type="text" value="default">
+            
+            <label for="bodyPart2">Another body part:</label>
+            <input id="bodyPart2" type="text" value="default">
+            
+            <label for="bodyPart3">A third body part:</label>
+            <input id="bodyPart3" type="text" value="default">
+            
+            <label for="thing">An object:</label>
+            <input id="thing" type="text" value="default">
+            
+            <label for="thing2">An object you might give somebody you love:</label>
+            <input id="thing2" type="text" value="default">
+            
+            <label for="thing3">An object you might give somebody you like:</label>
+            <input id="thing3" type="text" value="default">
+            
+            <label for="adjective4">A word used to describe the vehicle:</label>
+            <input id="adjective4" type="text" value="default">
+            
+            <label for="adjective5">Another word to describe the vehicle:</label>
+            <input id="adjective5" type="text" value="default">
+            
+            <label for="number">Your favorite number:</label>
+            <input id="userNumber" type="number" value="0">
+            
+            <input type="submit" value="Submit"> <input type="reset">
+         </form>
 
+    </section>
 </body>
 </html>
