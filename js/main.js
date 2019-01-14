@@ -1,7 +1,7 @@
 // WATS 3020 Mad Libs Assignment
 
 function madLibs(){
-    let honorific = document.getElementById('honorific').value;
+    let honorific = document.getElementById('honorific').value; // create variable honorific and give it the value that was inputed by the user in the element with the id "honorific"
 
     let authorName = document.getElementById('authorName').value;
 
@@ -47,11 +47,11 @@ function madLibs(){
 
     let userNumber = parseInt(document.getElementById('userNumber').value);
 
-    let number2 = userNumber * 2;
+    let number2 = userNumber * 2; //create variable number2 and set the value to 2x that of the user-inputed number
 
-    let number3 = userNumber + 7;
+    let number3 = userNumber + 7; //create variable number3 and set the value to the sum of the user-inputed number and 7
 
-    let titleText = `O ${honorific}! My ${honorific}! by <small>${authorName}</small>`;
+    let titleText = `O ${honorific}! My ${honorific}! by <small>${authorName}</small>`; //create variable titleText and set the value to a string using variables defined earlier by user input
 
     document.write (`
         
